@@ -2,7 +2,7 @@ import { useState } from "react";
 import Mensajes from "./Mensaje";
 
 
-function Form({onAgregarJuego}){
+function Form({onAgregarMusica}){
     const[nombre, setNombre]=useState("");
     const[cancion, setCancion]=useState("");
     const[mensaje, setMensaje]=useState("");
@@ -15,7 +15,7 @@ function Form({onAgregarJuego}){
         if (nombre.length <= 3 || cancion.length <= 6){
             setMensaje("Por favor chequea que la información sea correcta")
         }else{
-            onAgregarJuego({nombre, cancion})
+            onAgregarMusica({nombre, cancion})
             setNombre("");
             setCancion("");
             setMensaje("")
