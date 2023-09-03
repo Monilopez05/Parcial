@@ -28,7 +28,7 @@ function Form({onAgregarJuego}){
                 <input type="text"  name="nombre" value={nombre} onChange={(e)=>setNombre(e.target.value)}/>
             </div>
             <div>
-                <label for="Cancion">Cancion:</label>
+                <label for="cancion">Cancion:</label>
                 <input type="text"  name="cancion" value={cancion} onChange={(e)=>setCancion(e.target.value)}/>
             </div>
             <div>
