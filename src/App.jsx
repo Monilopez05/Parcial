@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Form from './Form';
-import Card from './card';
+import Card from './Card';
 
 function App() {
   const [musicas, setMusica] = useState([]);
